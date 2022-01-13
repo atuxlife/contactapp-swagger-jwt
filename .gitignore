@@ -1,5 +1,5 @@
 # Directorios ignorados
-# dist/
+dist/
 node_modules/
 
 # Configuraciones de entorno
