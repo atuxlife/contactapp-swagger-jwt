@@ -1,0 +1,10 @@
+# Configuración del puerto de servidor
+SV_PORT=8000
+# Secret
+SECRET='rvalley-api'
+# Configuración de la cadena de conexión MongoDB
+DB_HOST='localhost'
+DB_PORT=27017
+DB_NAME='rvalleydb'
+DB_USER='your_user'
+DB_PASW='your_password'

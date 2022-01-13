@@ -1,0 +1,42 @@
+{
+  "name": "contactapp-swagger-jwt",
+  "version": "1.0.0",
+  "description": "Aplicación de contactos usando documentación con Swagger y autenticación JWT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atuxlife/contactapp-swagger-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atuxlife/contactapp-swagger-jwt/issues"
+  },
+  "homepage": "https://github.com/atuxlife/contactapp-swagger-jwt#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6",
+    "mongoose-paginate-v2": "^1.5.0",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "nodemon": "^2.0.15"
+  }
+}
