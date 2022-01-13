@@ -1,5 +1,6 @@
 # Directorios ignorados
 dist/
+public/
 node_modules/
 
 # Configuraciones de entorno
