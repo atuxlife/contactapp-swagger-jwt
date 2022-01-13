@@ -4,9 +4,9 @@
   "description": "Aplicación de contactos usando documentación con Swagger y autenticación JWT",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir public",
     "dev": "nodemon src/index.js --exec babel-node",
-    "start": "node dist/index.js"
+    "start": "node public/index.js"
   },
   "repository": {
     "type": "git",
